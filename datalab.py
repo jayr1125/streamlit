@@ -7,7 +7,7 @@ from pycaret.time_series import *
 st.set_page_config(layout="wide")
 
 # Display FLNT logo
-image = Image.open(r".\flnt logo.png")
+image = Image.open(r"flnt logo.png")
 st.sidebar.image(image,
                  width=160)
 
