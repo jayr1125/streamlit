@@ -7,9 +7,9 @@ from pycaret.time_series import *
 st.set_page_config(layout="wide")
 
 # Display FLNT logo
-image = Image.open(r"C:\Users\jrsal\Pictures\flnt logo.png")
-st.sidebar.image(image,
-                 width=160)
+#image = Image.open(r"C:\Users\jrsal\Pictures\flnt logo.png")
+#st.sidebar.image(image,
+#                 width=160)
 
 # Display file uploader (adding space beneath the FLNT logo)
 st.sidebar.write("")
